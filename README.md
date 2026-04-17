@@ -1,4 +1,4 @@
-# 🧠 Customer Review Analyzer
+#  Customer Review Analyzer
 
 > Plateforme d'analyse automatique d'avis clients —  Laravel/IA | ECE Paris 2025/2026
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 👥 Équipe
+##  Équipe
 
 | Nom | Rôle |
 |-----|------|
@@ -17,13 +17,13 @@
 
 ---
 
-## 🎯 Objectif
+## Objectif
 
 Permettre à des entreprises d'analyser automatiquement les avis de leurs clients grâce à une API REST Laravel couplée à un moteur NLP. Chaque avis soumis est automatiquement classifié, scoré et catégorisé par thème.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 Frontend (Vue 3)  →  API REST (Laravel 12)  →  Service IA (NLP)
@@ -32,7 +32,7 @@ Frontend (Vue 3)  →  API REST (Laravel 12)  →  Service IA (NLP)
 
 ---
 
-## ✨ Fonctionnalités
+##  Fonctionnalités
 
 - **Authentification** — Inscription, login, gestion des rôles (admin / user)
 - **Gestion des avis** — CRUD complet via API REST
@@ -41,7 +41,7 @@ Frontend (Vue 3)  →  API REST (Laravel 12)  →  Service IA (NLP)
 
 ---
 
-## 📡 Endpoints principaux
+##  Endpoints principaux
 
 | Méthode | Endpoint | Description |
 |---------|----------|-------------|
@@ -69,7 +69,7 @@ Frontend (Vue 3)  →  API REST (Laravel 12)  →  Service IA (NLP)
 
 ---
 
-## 🚀 Lancer le projet
+##  Lancement
 
 ```bash
 # Backend

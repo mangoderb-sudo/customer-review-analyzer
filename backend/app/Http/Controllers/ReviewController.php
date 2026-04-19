@@ -13,9 +13,9 @@ class ReviewController extends Controller
     /**
      * GET /api/reviews
      */
-    public function index()
+    public function index(Request $request)
     {
-        $reviews = Review::with('user:id,name')
+        $reviews = Review::where('user_id', $request->user()->id)
             ->latest()
             ->paginate(10);
 

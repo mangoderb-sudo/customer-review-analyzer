@@ -6,11 +6,16 @@ class SentimentAnalyzer
 {
     // Mots positifs
     private array $positiveWords = [
-        'excellent', 'parfait', 'super', 'génial', 'rapide', 'satisfait',
-        'merveilleux', 'recommande', 'qualité', 'bravo', 'top', 'bien',
-        'content', 'agréable', 'efficace', 'impressionné', 'fantastique',
-        'great', 'good', 'fast', 'happy', 'love', 'amazing', 'best',
-        'perfect', 'wonderful', 'satisfied', 'recommend', 'excellent',
+    'excellent', 'parfait', 'super', 'génial', 'rapide', 'satisfait',
+    'merveilleux', 'recommande', 'qualité', 'bravo', 'top', 'bien',
+    'content', 'agréable', 'efficace', 'impressionné', 'fantastique',
+    'magnifique', 'incroyable', 'formidable', 'adorable', 'exceptionnel',
+    'remarquable', 'impeccable', 'irréprochable', 'ravie', 'ravi',
+    'enchante', 'enchantée', 'adore', 'vivement', 'félicitations', 
+    'great', 'good', 'fast', 'happy', 'love', 'amazing', 'best',
+    'perfect', 'wonderful', 'satisfied', 'recommend', 'outstanding',
+    'excellent', 'superb', 'brilliant', 'fantastic', 'awesome',
+    'impressive', 'delighted', 'pleased', 'thrilled', 'enjoyed',
     ];
 
     // Mots négatifs
